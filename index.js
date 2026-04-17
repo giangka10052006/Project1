@@ -2,7 +2,8 @@ const express = require("express"); // nhúng giống export nhúng thư viện 
 const app = express();
 const port = 3000;
 
-app.get("/", (req, res) => {// get là lấy ra đường dẫn chỗ /
+app.get("/", (req, res) => {
+	// get là lấy ra đường dẫn chỗ /
 	res.send("Trang chủ");
 });
 
